@@ -20,7 +20,7 @@ Then, add in your form:
 <%= form.map_picker :lat_column => 'latitude', :lng_column => 'longitude' , :zoom_level => 10, :default_coordinates => [lat,lng], autocomplete: { enable: true, class: 'form-control' }  %>
 ```
 
-Or, user is as form helper:
+Or, use it as a form helper:
 
 ```ruby
 <%= render_map_picker :lat_column => 'latitude', :lng_column => 'longitude' , :zoom_level => 10, :default_coordinates => [lat,lng], autocomplete: { enable: true, class: 'form-control' }  %>
