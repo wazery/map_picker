@@ -11,7 +11,7 @@ Usage
 add the following to your `Gemfile`:
 
 ```ruby
-gem " map_picker"
+gem "map_picker"
 ```
 
 Then, add in your form:
